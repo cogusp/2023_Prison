@@ -358,6 +358,7 @@
 "Assets/Oculus/Voice/Scripts/Runtime/Interfaces/IPlatformVoiceService.cs"
 "Assets/Oculus/Voice/Scripts/Runtime/Service/AppBuiltIns.cs"
 "Assets/Oculus/Voice/Scripts/Runtime/Service/AppVoiceExperience.cs"
+"Assets/Oculus/Voice/Scripts/Runtime/Service/ObjectVoiceExperience.cs"
 "Assets/Oculus/Voice/Scripts/Runtime/Utilities/MicPermissionsManager.cs"
 -langversion:9.0
 

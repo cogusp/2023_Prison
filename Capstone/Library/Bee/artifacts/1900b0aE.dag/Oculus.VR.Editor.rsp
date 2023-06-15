@@ -396,6 +396,7 @@
 "Assets/Oculus/VR/Editor/OVRProjectSetup/OVRProjectSetupUtils.cs"
 "Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupCompatibilityTasks.cs"
 "Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupMovementSDK.cs"
+"Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupMovementTasks.cs"
 "Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupPassthrough.cs"
 "Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupPhysicsTasks.cs"
 "Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupQualityTasks.cs"
@@ -424,6 +425,8 @@
 "Assets/Oculus/VR/Editor/PathHelper.cs"
 "Assets/Oculus/VR/Editor/Settings/OVRProjectSettingsProvider.cs"
 "Assets/Oculus/VR/Editor/Settings/OVRRuntimeSettingsBuildProcessor.cs"
+"Assets/Oculus/VR/Editor/Utils/OVRPassthroughHelper.cs"
+"Assets/Oculus/VR/Editor/Utils/OVRReadOnlyDrawer.cs"
 -langversion:9.0
 
 /deterministic

@@ -454,23 +454,29 @@ public class OVRPlayerController : MonoBehaviour
             euler.y += buttonRotation;
             buttonRotation = 0f;
 
-
+            
 #if !UNITY_ANDROID || UNITY_EDITOR
             if (!SkipMouseRotation)
                 euler.y += Input.GetAxis("Mouse X") * rotateInfluence * 3.25f;
 #endif
 
             if (SnapRotation)
-            {
+            {/*
                 if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickLeft) ||
                     (RotationEitherThumbstick && OVRInput.Get(OVRInput.Button.PrimaryThumbstickLeft)))
-                {
+                {*/
+                    Vector2 rot = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
+
+                    transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x,
+                        transform.rotation.eulerAngles.y + rot.x * 0.5f, transform.rotation.eulerAngles.z);
+                    /*
                     if (ReadyToSnapTurn)
                     {
                         euler.y -= RotationRatchet;
                         ReadyToSnapTurn = false;
                     }
-                }
+                }*/
+                    /*
                 else if (OVRInput.Get(OVRInput.Button.SecondaryThumbstickRight) ||
                          (RotationEitherThumbstick && OVRInput.Get(OVRInput.Button.PrimaryThumbstickRight)))
                 {
@@ -483,8 +489,8 @@ public class OVRPlayerController : MonoBehaviour
                 else
                 {
                     ReadyToSnapTurn = true;
-                }
-            }
+                }*/
+            }/*
             else
             {
                 Vector2 secondaryAxis = OVRInput.Get(OVRInput.Axis2D.SecondaryThumbstick);
@@ -498,8 +504,8 @@ public class OVRPlayerController : MonoBehaviour
                 }
 
                 euler.y += secondaryAxis.x * rotateInfluence;
-            }
-
+            }*/
+            /*
             if (RotateAroundGuardianCenter)
             {
                 transform.rotation = Quaternion.Euler(euler);
@@ -507,7 +513,7 @@ public class OVRPlayerController : MonoBehaviour
             else
             {
                 transform.RotateAround(CameraRig.centerEyeAnchor.position, Vector3.up, euler.y);
-            }
+            }*/
         }
 #endif
     }

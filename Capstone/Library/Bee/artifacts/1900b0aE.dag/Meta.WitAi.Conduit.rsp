@@ -353,6 +353,7 @@
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Runtime/Attributes/ConduitEntityAttribute.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Runtime/Attributes/ConduitParameterAttribute.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Runtime/Attributes/ConduitValueAttribute.cs"
+"Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Runtime/Attributes/HandleEntityResolutionFailureAttribute.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Runtime/Attributes/OnConduitFailedParameterResolutionAttribute.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Runtime/ConduitDispatcher.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Runtime/ConduitDispatcherFactory.cs"

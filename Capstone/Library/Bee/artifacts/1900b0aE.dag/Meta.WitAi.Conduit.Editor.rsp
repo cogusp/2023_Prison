@@ -358,7 +358,6 @@
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/AssemblyWalker.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/ConduitAssembly.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/ConduitStatistics.cs"
-"Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitEntity.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitIncomingEntity.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitOutgoingEntity.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit/Editor/Data/WitRole.cs"

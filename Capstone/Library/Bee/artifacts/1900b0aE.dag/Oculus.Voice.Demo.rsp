@@ -362,6 +362,8 @@
 "Assets/Oculus/Voice/Demo/Scripts/ShortResponse/ShortResponseColorHandler.cs"
 "Assets/Oculus/Voice/Demo/Scripts/ShortResponse/ShortResponseInstructions.cs"
 "Assets/Oculus/Voice/Demo/Scripts/UIShapesDemo/ColorChanger.cs"
+"Assets/Oculus/Voice/Demo/Scripts/UIShapesDemo/ColorChangerConduit.cs"
+"Assets/Oculus/Voice/Demo/Scripts/UIShapesDemo/ColorChangerEnums.cs"
 "Assets/Oculus/Voice/Demo/Scripts/UIShapesDemo/Instructions.cs"
 -langversion:9.0
 
