@@ -75,3 +75,4 @@ Capstone/[Aa]ssets/[Ss]treamingAssets/aa.meta
 Capstone/[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
+Capstone/Library/ArtifactDB
