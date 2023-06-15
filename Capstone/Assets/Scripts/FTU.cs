@@ -6,7 +6,9 @@ using Firebase;
 using Firebase.Database;
 
 
-public class FTU : MonoBehaviour // Firebase to Unity
+// Firebase to Unity
+
+public class FTU : MonoBehaviour 
 {   private static FTU instance;
 
     // 싱글톤 인스턴스에 접근할 수 있는 속성
@@ -58,7 +60,7 @@ public class FTU : MonoBehaviour // Firebase to Unity
 
     public string GetBpmValues(int num)
     {
-        if (num == 0) return bpmValues[0];
+        if (num == 0) return bpmValues[0];      // 심박수 반환
         else return bpmValues[1];
     }
 

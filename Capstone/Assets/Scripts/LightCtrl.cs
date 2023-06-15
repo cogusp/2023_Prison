@@ -61,7 +61,7 @@ public class LightCtrl : MonoBehaviour
             }
             */
          // light 어두워지는 스크립트 -> 심박수 이벤트 2단계
-         
+         /*
         if (Input.GetKeyDown(KeyCode.H))
         {
             int spot_index = 0;         // 복도 조명만 제어하기 위한 인덱스
@@ -86,9 +86,8 @@ public class LightCtrl : MonoBehaviour
                     point_index++;
                 }
             }
-        }
-         
-        /*
+        }*/
+        
         // light 깜빡거리는 스크립트 -> 심박수 이벤트 1단계
         if (FTU.Instance.BPMEvent == 1)
         {
@@ -175,6 +174,6 @@ public class LightCtrl : MonoBehaviour
                 }
             }
             
-    }*/
+        }
     }
 }

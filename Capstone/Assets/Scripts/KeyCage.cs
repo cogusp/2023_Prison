@@ -46,12 +46,12 @@ public class KeyCage : MonoBehaviour
 
             StartCoroutine(CageOpen());     // 철장 올라가는 효과음 재생
 
-            if(cage.name.Equals("Cage1"))
+            if(cage.name.Equals("Cage1"))   // 엘리베이터 제거 혹은 생성
             {
-                ele.SetActive(false);
+                ele.SetActive(false);       // 출발지 엘리베이터 제거
             } else
             {
-                ele.SetActive(true);
+                ele.SetActive(true);        // 도착지 엘리베이터 생성
             }
 
         } 

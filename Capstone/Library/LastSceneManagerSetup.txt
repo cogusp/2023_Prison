@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Oculus/SampleFramework/Usage/MixedRealityCapture.unity
+- path: Assets/Scenes/ColorRoom.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

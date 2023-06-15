@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-// bpm을 json 파일로 저장하는 스크립트 
+// 심박수를 json 파일로 저장하는 스크립트 
 
 [System.Serializable]
 public class BpmData
 {
-    public List<string> bpm = new List<string>();   // bpm을 담을 List
+    public List<string> bpm = new List<string>();   // 심박수를 담을 List
 }
 
 public static class BpmSave
 {
     private static string SavePath => Application.dataPath + "/saves/"; // json 파일 저장 경로
 
-    public static void Save(BpmData bpmData, string saveFileName)   // bpm 데이터와 파일 이름 받음
+    public static void Save(BpmData bpmData, string saveFileName)   // 심박수 데이터와 파일 이름 받음
     {
         if(!Directory.Exists(SavePath))     // 저장 경로가 존재하지 않으면
         {
